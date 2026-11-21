@@ -1,0 +1,22 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# Python / FastAPI
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
